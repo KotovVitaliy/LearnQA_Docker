@@ -1,7 +1,7 @@
-docker build -t php-app .
+docker build -t python_counter .
 
 docker image ls
 
-docker run --rm php-app
+docker run --rm python_counter
 
-docker rmi php-app # the same as 'docker image rm php-app'
+docker rmi python_counter # the same as 'docker image rm python_counter'

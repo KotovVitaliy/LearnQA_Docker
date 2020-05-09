@@ -1,5 +1,7 @@
-FROM php:7.0-cli
+FROM python
 
 WORKDIR /app
 
-COPY counter.php .
+COPY counter.py .
+
+CMD python counter.py
